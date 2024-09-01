@@ -1,5 +1,7 @@
 import './App.css';
 import { useState } from 'react';
+import ImageGenerator from './components/ImageGenerator';
+import ChatComponent from './components/ChatComponent';
 
 function App() {
   const [activeTab, setActiveTab] = useState('image-generator');
@@ -17,7 +19,7 @@ function App() {
       onClick={() => handleTabChange('chat')}>Chat</button>
 
       <div>
-        {activeTab === 'image-generator' && <ImageComponent/>}
+        {activeTab === 'image-generator' && <ImageGenerator/>}
         {activeTab === 'chat' && <ChatComponent/>}
       </div>
     </div>
