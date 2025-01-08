@@ -22,6 +22,7 @@ Technologies Used
 
 Directory Structure
 
+```
 siddharth-upadhyayula-ClickGPT/
 ├── backend/
 │   ├── mvnw
@@ -66,6 +67,7 @@ siddharth-upadhyayula-ClickGPT/
         └── components/
             ├── ChatComponent.js
             └── ImageGenerator.js
+```
 
 Setup Instructions
 
