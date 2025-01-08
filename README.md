@@ -1,16 +1,3 @@
-Detailed Documentation for GitHub Repository: siddharth-upadhyayula-ClickGPT
-
-Table of Contents
-	1.	Introduction
-	2.	Features
-	3.	Technologies Used
-	4.	Directory Structure
-	5.	Setup Instructions
-	6.	Backend Overview
-	7.	Frontend Overview
-	8.	Contributing
-	9.	License
-
 Introduction
 
 ClickGPT is an AI-driven application that combines chat and image generation functionalities using modern web and backend frameworks. This repository contains a Spring Boot-based backend and a React-based frontend.
