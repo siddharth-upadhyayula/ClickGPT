@@ -20,7 +20,7 @@ Technologies Used
 	•	Others:
 	•	RESTful APIs
 
-Directory Structure
+Directory Structure:
 
 ```
 siddharth-upadhyayula-ClickGPT/
@@ -77,42 +77,42 @@ Prerequisites
 	•	Maven 3.8+
 	•	Git
 
-Backend Setup
-	1.	Navigate to the backend/ directory:
- 
-```
+Backend Setup:
+
+1.	Navigate to the backend/ directory:
+```git
 cd backend
 ```
-	2.	Build the project using Maven:
+2.	Build the project using Maven:
  
-```
+```mvn
 ./mvnw clean install
 ```
 
-	3.	Run the application:
-```
+3.	Run the application:
+```mvn
 ./mvnw spring-boot:run
 ```
 
-	4.	The backend service will be available at http://localhost:8080.
+4.	The backend service will be available at http://localhost:8080.
 
 Frontend Setup
 	1.	Navigate to the frontend/ directory:
-```
+```git
 cd frontend
 ```
 
-	2.	Install dependencies:
-```
+2.	Install dependencies:
+```git
 npm install
 ```
 
-	3.	Start the development server:
-```
+3.	Start the development server:
+```git
 npm start
 ```
 
-	4.	The frontend will be accessible at http://localhost:3000.
+4.	The frontend will be accessible at http://localhost:3000.
 
 Backend Overview
 
@@ -125,7 +125,7 @@ Key Files
 	•	ImageService.java: Contains logic for image generation.
 	•	WebConfig.java: Configures CORS and other web settings.
 
-Configuration
+Configuration:
 	•	application.properties: Contains environment-specific configurations such as server ports and database details.
 
 Frontend Overview
@@ -142,23 +142,26 @@ Styling
 	•	CSS files (App.css, index.css) provide consistent styling.
 
 Contributing
-	1.	Fork the repository.
-	2.	Create a feature branch:
+1.	Fork the repository.
+2.	Create a feature branch:
 
+```
 git checkout -b feature-name
+```
 
+3.	Commit your changes:
 
-	3.	Commit your changes:
-
+```
 git commit -m "Add feature"
+```
 
+4.	Push to your fork:
 
-	4.	Push to your fork:
-
+```
 git push origin feature-name
+```
 
-
-	5.	Submit a pull request.
+5.	Submit a pull request.
 
 License
 
